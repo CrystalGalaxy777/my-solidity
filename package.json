@@ -1,0 +1,25 @@
+{
+  "name": "my-solidity",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CrystalGalaxy777/my-solidity.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CrystalGalaxy777/my-solidity/issues"
+  },
+  "homepage": "https://github.com/CrystalGalaxy777/my-solidity#readme",
+  "description": "",
+  "devDependencies": {
+    "@openzeppelin/contracts": "^5.4.0",
+    "dotenv": "^17.2.2",
+    "truffle": "^5.11.5"
+  }
+}
