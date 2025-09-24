@@ -4,11 +4,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-  "compile": "truffle compile --config truffle-config.cjs",
-  "migrate:dev": "truffle migrate --network development --reset --config truffle-config.cjs",
-  "test:dev": "truffle test --network development --config truffle-config.cjs",
-  "test": "echo \"Error: no test specified\" && exit 1"
-},
+    "compile": "truffle compile --config truffle-config.cjs",
+    "migrate:dev": "truffle migrate --network development --reset --config truffle-config.cjs",
+    "test:dev": "truffle test --network development --config truffle-config.cjs",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "console:dev": "truffle console --network development --config truffle-config.cjs"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/CrystalGalaxy777/my-solidity.git"
@@ -23,6 +24,7 @@
   "description": "",
   "devDependencies": {
     "@openzeppelin/contracts": "^5.4.0",
+    "@openzeppelin/test-helpers": "^0.5.16",
     "dotenv": "^17.2.2",
     "hardhat": "^3.0.6",
     "solc": "^0.8.24",
