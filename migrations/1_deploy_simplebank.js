@@ -4,5 +4,5 @@
 const SimpleBank = artifacts.require("SimpleBank"); // EN: Import contract artifact / DE: Artifact importieren / RU: Импорт артефакта контракта
 
 module.exports = function (deployer) {
-  deployer.deploy(SimpleBank); // EN: Deploy contract / DE: Contract deployen / RU: Деплой контракта
+  deployer.deploy(SimpleBank);                      // EN: Deploy contract / DE: Contract deployen / RU: Деплой контракта
 };

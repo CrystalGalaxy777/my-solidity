@@ -1,33 +1,50 @@
 {
   "name": "my-solidity",
-  "type": "module",
   "version": "1.0.0",
+  "type": "module",
+  "description": "SimpleBank: Solidity + Truffle project with tests, CI, linting",
   "main": "index.js",
   "scripts": {
     "compile": "truffle compile --config truffle-config.cjs",
     "migrate:dev": "truffle migrate --network development --reset --config truffle-config.cjs",
     "test:dev": "truffle test --network development --config truffle-config.cjs",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "console:dev": "truffle console --network development --config truffle-config.cjs"
+    "console:dev": "truffle console --network development --config truffle-config.cjs",
+
+    "ganache": "ganache --host 127.0.0.1 --port 8545 --wallet.totalAccounts 10 --wallet.defaultBalance 100 --chain.networkId 31337 --chain.chainId 31337",
+    "ci:test": "start-server-and-test 'npm:ganache' http://127.0.0.1:8545 'npm run test:dev'",
+
+    "lint:sol": "solhint 'contracts/**/*.sol'",
+    "fmt": "prettier --write 'contracts/**/*.sol' 'test/**/*.js' 'migrations/**/*.js'"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/CrystalGalaxy777/my-solidity.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/CrystalGalaxy777/my-solidity/issues"
   },
   "homepage": "https://github.com/CrystalGalaxy777/my-solidity#readme",
-  "description": "",
+  "keywords": [
+    "solidity",
+    "truffle",
+    "ganache",
+    "smart-contracts",
+    "ethereum"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
   "devDependencies": {
     "@openzeppelin/contracts": "^5.4.0",
     "@openzeppelin/test-helpers": "^0.5.16",
     "dotenv": "^17.2.2",
-    "hardhat": "^3.0.6",
     "solc": "^0.8.24",
-    "truffle": "^5.11.5"
+    "start-server-and-test": "^2.0.0",
+    "truffle": "^5.11.5",
+    "solhint": "^4.0.0",
+    "prettier": "^3.3.3",
+    "prettier-plugin-solidity": "^1.3.1"
   }
 }
