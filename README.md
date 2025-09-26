@@ -17,17 +17,18 @@
 
 ## Highlights
 
-- EN: Deposit & Withdraw ETH with events  
-- DE: ETH einzahlen & abheben mit Events  
-- RU: Внесение и вывод ETH с событиями  
+- EN: Deposit & Withdraw ETH with events    
+- EN: Prevents zero deposits & over-withdraw    
+- EN: Includes automated tests (Mocha + Chai + OpenZeppelin test-helpers)   
 
-- EN: Prevents zero deposits & over-withdraw  
-- DE: Verhindert Null-Einzahlungen & Überabhebungen  
-- RU: Запрещает нулевые депозиты и сверх-вывод  
 
-- EN: Includes automated tests (Mocha + Chai + OpenZeppelin test-helpers)  
-- DE: Enthält automatisierte Tests (Mocha + Chai + OpenZeppelin test-helpers)  
-- RU: Включает автоматические тесты (Mocha + Chai + OpenZeppelin test-helpers)
+- DE: ETH einzahlen & abheben mit Events    
+- DE: Verhindert Null-Einzahlungen & Überabhebungen   
+- DE: Enthält automatisierte Tests (Mocha + Chai + OpenZeppelin test-helpers)    
+
+- RU: Внесение и вывод ETH с событиями      
+- RU: Запрещает нулевые депозиты и сверх-вывод      
+- RU: Включает автоматические тесты (Mocha + Chai + OpenZeppelin test-helpers)  
 
 ---
 
