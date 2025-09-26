@@ -74,23 +74,17 @@ Output example:
 
 ## New features (v1.0)
 
-* EN: Deposit & Withdraw with **events**
+* **EN:** Deposit & Withdraw with **events**  
+* **EN:** Revert checks for invalid actions (zero deposit, over-withdraw)  
+* **EN:** GitHub Actions CI pipeline (compile + test)  
 
-* DE: Einzahlen & Abheben mit **Events**
+* **DE:** Einzahlen & Abheben mit **Events**  
+* **DE:** Revert-Prüfungen für ungültige Aktionen (Null-Einzahlung, Überabhebung)  
+* **DE:** GitHub Actions CI-Pipeline (Kompilierung + Test)
 
-* RU: Депозит и вывод с **событиями**
-
-* EN: Revert checks for invalid actions (zero deposit, over-withdraw)
-
-* DE: Revert-Prüfungen für ungültige Aktionen (Null-Einzahlung, Überabhebung)
-
-* RU: Проверки отката для недопустимых действий (нулевой депозит, сверх-вывод)
-
-* EN: GitHub Actions CI pipeline (compile + test)
-
-* DE: GitHub Actions CI-Pipeline (Kompilierung + Test)
-
-* RU: CI-пайплайн GitHub Actions (компиляция + тесты)
+* **RU:** Депозит и вывод с **событиями**  
+* **RU:** Проверки отката для недопустимых действий (нулевой депозит, сверх-вывод)  
+* **RU:** CI-пайплайн GitHub Actions (компиляция + тесты)  
 
 ---
 
