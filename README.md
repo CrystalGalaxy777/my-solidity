@@ -98,5 +98,3 @@ Output example:
 * EN: This project is licensed under the MIT License — see [LICENSE](LICENSE).
 * DE: Dieses Projekt ist unter der MIT-Lizenz veröffentlicht — siehe [LICENSE](LICENSE).
 * RU: Этот проект распространяется по лицензии MIT — см. [LICENSE](LICENSE).
-
-```
