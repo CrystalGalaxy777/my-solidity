@@ -1,8 +1,12 @@
+# My Blockchain Learning (JS)
 # SimpleBank (Solidity + Truffle)
 
-![Node.js](https://img.shields.io/badge/node-%3E=18-green)
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Build](https://img.shields.io/badge/build-passing-brightgreen)
+![Node.js](https://img.shields.io/badge/Node.js-%3E%3D18-green)
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
+![build](https://img.shields.io/badge/build-passing-brightgreen)
+![GitHub stars](https://img.shields.io/github/stars/CrystalGalaxy777/my-solidity?style=social)
+![last commit](https://img.shields.io/github/last-commit/CrystalGalaxy777/my-solidity)
+![repo size](https://img.shields.io/github/repo-size/CrystalGalaxy777/my-solidity)
 
 ---
 
