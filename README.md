@@ -9,9 +9,9 @@
 
 ---
 
-EN: Minimal learning project — smart contract **SimpleBank** with deposit, withdraw, balance, events, tests, CI (Truffle + Ganache).  
-DE: Minimales Lernprojekt — Smart Contract **SimpleBank** mit Einzahlen, Abheben, Kontostand, Events, Tests, CI (Truffle + Ganache).  
-RU: Мини-проект для обучения — смарт-контракт **SimpleBank** с депозитом, выводом, балансом, событиями, тестами, CI (Truffle + Ganache).
+>EN: Minimal learning project — smart contract **SimpleBank** with deposit, withdraw, balance, events, tests, CI (Truffle + Ganache).  
+>DE: Minimales Lernprojekt — Smart Contract **SimpleBank** mit Einzahlen, Abheben, Kontostand, Events, Tests, CI (Truffle + Ganache).  
+>RU: Мини-проект для обучения — смарт-контракт **SimpleBank** с депозитом, выводом, балансом, событиями, тестами, CI (Truffle + Ganache).
 
 ---
 
