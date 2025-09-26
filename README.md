@@ -1,83 +1,110 @@
-Отличная идея 🙌 README – это первое, что увидит твой учитель на GitHub. Давай я дам тебе готовый чистый вариант для копипаста. Он будет простым, но профессионально выглядящим.
+Отлично, я вижу стиль, который ты хочешь (с бейджами, многоязычным описанием и структурой). Давай сделаем для твоего проекта **SimpleBank** README в таком же виде.
 
----
-
-## 📌 README.md
+Вот полный чистый код для `README.md`:
 
 ````markdown
-# 🏦 SimpleBank (Solidity + Truffle)
+# SimpleBank (Solidity + Truffle)
 
-Ein Lernprojekt für Smart Contracts in Solidity.  
-Ziel: Eine **kleine Bank**, bei der man ETH einzahlen, abheben und das Guthaben abfragen kann.  
-
----
-
-## 🚀 Funktionen
-
-- **Einzahlen (`deposit`)**: ETH senden und Guthaben erhöhen  
-- **Abheben (`withdraw`)**: ETH abheben, nur wenn genug Guthaben vorhanden  
-- **Kontostand (`balanceOf`)**: Aktuelles Guthaben eines Users anzeigen  
-- **Events**: Jeder Ein- und Auszahlung wird protokolliert  
+![Node.js](https://img.shields.io/badge/node-%3E=18-green)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Build](https://img.shields.io/badge/build-passing-brightgreen)
 
 ---
 
-## 🧪 Tests
-
-Die Funktionen wurden mit **Truffle/Mocha** getestet:  
-
-- ✅ Einzahlen erhöht Guthaben  
-- ✅ Abheben reduziert Guthaben  
-- ✅ Null-Einzahlung wird abgelehnt  
-- ✅ Über-Abhebung wird abgelehnt  
-- ✅ Events für Ein- und Auszahlung  
-
-Alle Tests laufen erfolgreich auf der lokalen Blockchain (**Ganache**).  
+EN: Minimal learning project — smart contract **SimpleBank** with deposit, withdraw, balance, events, tests, CI (Truffle + Ganache).  
+DE: Minimales Lernprojekt — Smart Contract **SimpleBank** mit Einzahlen, Abheben, Kontostand, Events, Tests, CI (Truffle + Ganache).  
+RU: Мини-проект для обучения — смарт-контракт **SimpleBank** с депозитом, выводом, балансом, событиями, тестами, CI (Truffle + Ganache).
 
 ---
 
-## ⚙️ Installation & Nutzung
+## Highlights
 
+- EN: Deposit & Withdraw ETH with events  
+- DE: ETH einzahlen & abheben mit Events  
+- RU: Внесение и вывод ETH с событиями  
+
+- EN: Prevents zero deposits & over-withdraw  
+- DE: Verhindert Null-Einzahlungen & Überabhebungen  
+- RU: Запрещает нулевые депозиты и сверх-вывод  
+
+- EN: Includes automated tests (Mocha + Chai + OpenZeppelin test-helpers)  
+- DE: Enthält automatisierte Tests (Mocha + Chai + OpenZeppelin test-helpers)  
+- RU: Включает автоматические тесты (Mocha + Chai + OpenZeppelin test-helpers)
+
+---
+
+## How to run
+
+### 1. Compile
 ```bash
-# Abhängigkeiten installieren
-npm install
-
-# Lokale Blockchain starten
-npm run ganache
-
-# Smart Contracts kompilieren
 npm run compile
-
-# Deploy auf lokaler Blockchain
-npm run migrate:dev
-
-# Tests ausführen
-npm run test:dev
-
-# Interaktive Konsole starten
-npm run console:dev
 ````
 
----
+### 2. Start Ganache (Terminal 1)
 
-## 🔄 CI/CD
+```bash
+npm run ganache
+```
 
-Das Projekt nutzt **GitHub Actions**, um automatisch bei jedem Push:
+### 3. Deploy (Terminal 2)
 
-1. Ganache zu starten
-2. Contracts zu deployen
-3. Alle Tests laufen zu lassen
+```bash
+npm run migrate:dev
+```
 
----
+### 4. Run tests
 
-## 📚 Technologien
+```bash
+npm run test:dev
+```
 
-* Solidity `^0.8.24`
-* Truffle `^5.11.5`
-* Ganache CLI
-* OpenZeppelin Test Helpers
-
----
-
-✍️ Entwickelt als Lernprojekt von **CrystalGalaxy777**
+Output example:
 
 ```
+  Contract: SimpleBank
+    ✓ deposit increases balance
+    ✓ withdraw reduces balance
+    ✓ rejects zero deposit (require)
+    ✓ rejects over-withdraw (require funds)
+    ✓ emits events on deposit and withdraw
+
+  5 passing (350ms)
+```
+
+---
+
+## New features (v1.0)
+
+* EN: Deposit & Withdraw with **events**
+
+* DE: Einzahlen & Abheben mit **Events**
+
+* RU: Депозит и вывод с **событиями**
+
+* EN: Revert checks for invalid actions (zero deposit, over-withdraw)
+
+* DE: Revert-Prüfungen für ungültige Aktionen (Null-Einzahlung, Überabhebung)
+
+* RU: Проверки отката для недопустимых действий (нулевой депозит, сверх-вывод)
+
+* EN: GitHub Actions CI pipeline (compile + test)
+
+* DE: GitHub Actions CI-Pipeline (Kompilierung + Test)
+
+* RU: CI-пайплайн GitHub Actions (компиляция + тесты)
+
+---
+
+## License / Lizenz / Лицензия
+
+* EN: This project is licensed under the MIT License — see [LICENSE](LICENSE).
+* DE: Dieses Projekt ist unter der MIT-Lizenz veröffentlicht — siehe [LICENSE](LICENSE).
+* RU: Этот проект распространяется по лицензии MIT — см. [LICENSE](LICENSE).
+
+```
+
+---
+
+А для `LICENSE` можно взять стандарт MIT-текст (он совпадает с твоим старым проектом).  
+
+---
