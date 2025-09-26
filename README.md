@@ -1,4 +1,3 @@
-````markdown
 # SimpleBank (Solidity + Truffle)
 
 ![Node.js](https://img.shields.io/badge/node-%3E=18-green)
